@@ -1,0 +1,105 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: cnt_traffic, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "g:\Amit\Program\cnt_traffic_hl_bf_v18-without check mac\Release\RSP000007.rsp" with contents
+[
+/O2 /I "..\cvblobslib_OpenCV_v6" /I "..\ximage" /I "..\OpenCV_1.0" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FD /EHsc /MD /Fp".\Release/cnt_traffic.pch" /Fo".\Release/" /Fd".\Release/" /FR".\Release/" /W3 /c
+".\tracking.cpp"
+".\cnt_trafficDlg.cpp"
+".\cnt_traffic.cpp"
+".\Calibration.cpp"
+".\axismediacontrol.cpp"
+]
+Creating command line "cl.exe @"g:\Amit\Program\cnt_traffic_hl_bf_v18-without check mac\Release\RSP000007.rsp" /nologo"
+Creating temporary file "g:\Amit\Program\cnt_traffic_hl_bf_v18-without check mac\Release\RSP000008.rsp" with contents
+[
+/O2 /I "..\cvblobslib_OpenCV_v6" /I "..\ximage" /I "..\OpenCV_1.0" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FD /EHsc /MD /Yc"stdafx.h" /Fp".\Release/cnt_traffic.pch" /Fo".\Release/" /Fd".\Release/" /FR".\Release/" /W3 /c
+".\StdAfx.cpp"
+]
+Creating command line "cl.exe @"g:\Amit\Program\cnt_traffic_hl_bf_v18-without check mac\Release\RSP000008.rsp" /nologo"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+StdAfx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling...
+tracking.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+tracking.cpp(277) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+tracking.cpp(278) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+tracking.cpp(547) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+cnt_trafficDlg.cpp(280) : error C2668: 'ceil' : ambiguous call to overloaded function
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(594): could be 'long double ceil(long double)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(546): or       'float ceil(float)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(208): or       'double ceil(double)'
+        while trying to match the argument list '(int)'
+cnt_trafficDlg.cpp(284) : error C2668: 'ceil' : ambiguous call to overloaded function
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(594): could be 'long double ceil(long double)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(546): or       'float ceil(float)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(208): or       'double ceil(double)'
+        while trying to match the argument list '(int)'
+cnt_trafficDlg.cpp(835) : warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+cnt_trafficDlg.cpp(836) : warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+cnt_trafficDlg.cpp(837) : warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+cnt_trafficDlg.cpp(1053) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1054) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1055) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1056) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1130) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1131) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1206) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1206) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1377) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1377) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1467) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1468) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1473) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1474) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1475) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1476) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1505) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1506) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1507) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1508) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(1528) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+cnt_trafficDlg.cpp(2379) : error C2668: 'ceil' : ambiguous call to overloaded function
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(594): could be 'long double ceil(long double)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(546): or       'float ceil(float)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(208): or       'double ceil(double)'
+        while trying to match the argument list '(int)'
+cnt_trafficDlg.cpp(2382) : error C2668: 'ceil' : ambiguous call to overloaded function
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(594): could be 'long double ceil(long double)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(546): or       'float ceil(float)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(208): or       'double ceil(double)'
+        while trying to match the argument list '(int)'
+cnt_trafficDlg.cpp(2408) : error C2668: 'ceil' : ambiguous call to overloaded function
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(594): could be 'long double ceil(long double)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(546): or       'float ceil(float)'
+        C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\math.h(208): or       'double ceil(double)'
+        while trying to match the argument list '(int)'
+cnt_trafficDlg.cpp(2478) : warning C4018: '<' : signed/unsigned mismatch
+cnt_traffic.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Calibration.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+axismediacontrol.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Generating Code...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://g:\Amit\Program\cnt_traffic_hl_bf_v18-without check mac\Release\BuildLog.htm"
+cnt_traffic - 5 error(s), 28 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>
