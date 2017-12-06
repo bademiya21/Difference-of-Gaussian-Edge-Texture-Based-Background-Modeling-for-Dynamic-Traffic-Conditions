@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cnt_traffic - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/cnt_traffic.res" /d "NDEBUG" /d "_AFXDLL" "F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\cnt_traffic.rc"" 
+Creating temporary file "C:\DOCUME~1\amit0010\LOCALS~1\Temp\RSPD8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\cvblobslib_OpenCV_v6" /I "..\ximage" /I "..\OpenCV_1.0" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /Zm1000 /c 
+"F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\axismediacontrol.cpp"
+"F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\Calibration.cpp"
+"F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\cnt_traffic.cpp"
+"F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\cnt_trafficDlg.cpp"
+"F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\tracking.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\amit0010\LOCALS~1\Temp\RSPD8.tmp" 
+Creating temporary file "C:\DOCUME~1\amit0010\LOCALS~1\Temp\RSPD9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\cvblobslib_OpenCV_v6" /I "..\ximage" /I "..\OpenCV_1.0" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/cnt_traffic.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /Zm1000 /c 
+"F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\amit0010\LOCALS~1\Temp\RSPD9.tmp" 
+Creating temporary file "C:\DOCUME~1\amit0010\LOCALS~1\Temp\RSPDA.tmp" with contents
+[
+cximage.lib Jpeg.lib cvblobslib.lib highgui.lib cv.lib cxcore.lib urlmon.lib Wininet.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/cnt_traffic.pdb" /machine:I386 /out:"Release/cnt_traffic.exe" /libpath:"..\cvblobslib_OpenCV_v6\Release" /libpath:"../ximage" /libpath:"../OpenCV_1.0" 
+".\Release\axismediacontrol.obj"
+".\Release\Calibration.obj"
+".\Release\cnt_traffic.obj"
+".\Release\cnt_trafficDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\tracking.obj"
+".\Release\cnt_traffic.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\amit0010\LOCALS~1\Temp\RSPDA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+axismediacontrol.cpp
+Calibration.cpp
+cnt_traffic.cpp
+cnt_trafficDlg.cpp
+F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\cnt_trafficDlg.cpp(680) : warning C4101: 'weight' : unreferenced local variable
+F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\cnt_trafficDlg.cpp(680) : warning C4101: 'min' : unreferenced local variable
+F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\cnt_trafficDlg.cpp(681) : warning C4101: 'ind_min' : unreferenced local variable
+F:\My Algo\C\Traffic Data\11 x 11 Block\Ver 12\cnt_traffic_hl_bf_v18-without check mac\cnt_trafficDlg.cpp(1245) : warning C4101: 'value' : unreferenced local variable
+tracking.cpp
+Generating Code...
+Linking...
+   Creating library Release/cnt_traffic.lib and object Release/cnt_traffic.exp
+
+
+
+<h3>Results</h3>
+cnt_traffic.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
